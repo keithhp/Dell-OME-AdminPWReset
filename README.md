@@ -50,7 +50,7 @@ The main reason I wrote this was to recover the admin password of a very well es
 - It was at this point it was found out that nobody (other than who deployed it) knew the admin password..  and they were not around to ask!
 
 This does however lead to other uses for this script....  or modified versions of the script..
-- As this can update the admin account password to a known value, it cab be re-written to update it to an unknown RANDOM value, possibly daily to comply with security policies ?  And as you can't disable the admin account, you can ensure that no one will ever know how to log in and use it..  and of needed, use this to reset it back to know again, and then randomise once more when no longer needed.
+- As this can update the admin account password to a known value, it can be re-written to update it to an unknown RANDOM value, possibly daily to comply with security policies, or after the account is used.  As you cannot disable the admin account, you can ensure that no one will ever know the password for it and use it..  and of needed, use this to reset it back to a know value again, and then randomise it once more when no longer required.
 
 I'm not the tidiest coder..  and this was written in a rush so forgive any code that doesn't follow industry practise ;)
 
