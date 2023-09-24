@@ -1,4 +1,4 @@
-# **Dell-OME-AdminPWReset
+# Dell-OME-AdminPWReset
 > Written by Keith Hensby-Peck (2023-09-22)
 > 
 > Tesed on Dell OpenManage Enterprise v3.10.32B13
