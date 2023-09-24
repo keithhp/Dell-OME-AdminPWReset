@@ -110,7 +110,7 @@ if ($UserCall.StatusCode -eq 200){
 $SessClose = CloseOMESession -OMEServer $OMEServer -SessionId $OMESession.SessionId
 switch ($SessClose.StatusCode) {
     204     { write-host "API Session Closed."}
-    202     { write-host "Seccion close pending.."}
+    202     { write-host "Session close pending.."}
     default { write-host "Unknown session close state.. $($Sessclose.StatusCode)"}
 }
 
