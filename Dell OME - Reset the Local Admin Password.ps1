@@ -99,7 +99,7 @@ if ($UserCall.StatusCode -eq 200){
             write-host "Payload missing.. unable to send to API."
         }
     } else {
-        write-hsot "Existing user detail to reset could not be found using the API. Ensure the username specified is a LOCAL account, AD integrated accounts cannot be reset here."
+        write-host "Existing user detail to reset could not be found using the API. Ensure the username specified is a LOCAL account, AD integrated accounts cannot be reset here."
     }
 } else {
     Write-Error "Issues accessing API."
